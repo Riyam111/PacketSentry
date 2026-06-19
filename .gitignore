@@ -1,0 +1,16 @@
+# Build folders
+build/
+.cache/
+
+# Executables
+*.exe
+*.dll
+
+# App Data
+live_data.json
+
+# Test data
+*.pcap
+
+# Local Commands
+commands.md
