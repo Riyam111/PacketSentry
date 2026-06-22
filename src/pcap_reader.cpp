@@ -5,6 +5,7 @@
 namespace PacketAnalyzer {
 
 // Magic numbers for PCAP files
+// it just check if is in reverse order or not, if yes then we need to swap the bytes
 constexpr uint32_t PCAP_MAGIC_NATIVE = 0xa1b2c3d4;  // Native byte order
 constexpr uint32_t PCAP_MAGIC_SWAPPED = 0xd4c3b2a1; // Swapped byte order
 
