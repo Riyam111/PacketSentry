@@ -247,6 +247,20 @@ npm run dev
 ```
 
 Open **http://localhost:3000** in your browser.
+📊 Live Dashboard Previews
+
+Here is what the real-time React Next.js dashboard looks like when the C++ engine is running:
+
+### Global Statistics & Application Distribution
+![Global Dashboard View](assets/main_page.png)
+
+### Multi-Threaded Load Balancing
+Notice how the Flow Hashing algorithm perfectly distributes packets across the 4 CPU threads, keeping the processing queues at 0.
+![Thread Load Balancing](assets/flow_page.png)
+
+### Real-Time SNI Extraction
+The engine intercepts TLS Client Hello packets to extract plain-text domains (like github.com) before encryption, while safely handling persistent Keep-Alive browser tunnels.
+![Live Connection Flows](assets/flow_page.png)
 
 ### How the IPC works
 
